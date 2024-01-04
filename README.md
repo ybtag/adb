@@ -124,11 +124,11 @@ $ make -j8
 
 If there is nothing wrong. the `libcrypto.a` will be built out.
 
-cp it to `n-adb/prebuilt/windows/32/`
+cp it to `adb/prebuilt/windows/32/`
 
 4. build adb
 
-switch to the n-adb source direcoty, and run following commands
+switch to the adb source direcoty, and run following commands
 
 ```
 $ mkdir build32
@@ -163,7 +163,7 @@ $ make -j8
 
 If there is nothing wrong. the `libcrypto.a` will be built out.
 
-cp it to `n-adb/prebuilt/osx/`
+cp it to `adb/prebuilt/osx/`
 
 3. build adb
 
